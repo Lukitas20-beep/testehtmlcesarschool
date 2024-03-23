@@ -1,76 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Maria Silva</title>
+    <title>Aula CSS</title>
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+</head>
+
+<body>
+    <h1 style="font-family: Arial, Helvetica, sans-serif;">Texto aleatório</h1>
+
+    <a href="contato.html">Contato</a>
+    <a href="blog.html">Blog</a>
+    
+    <p class="texto-destaque">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique tempora maiores 
+        voluptate voluptas repellat,
+        consequatur incidunt quod iusto a harum, sit omnis dolorem ducimus commodi animi, 
+        unde culpa vero officiis!
+    </p>
+    <p id="txt-azul">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique tempora maiores 
+        voluptate voluptas repellat,
+        consequatur incidunt quod iusto a harum, sit omnis dolorem ducimus commodi animi, 
+        unde culpa vero officiis!
+    </p>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique tempora maiores 
+        voluptate voluptas repellat,
+        consequatur incidunt quod iusto a harum, sit omnis dolorem ducimus commodi animi, 
+        unde culpa vero officiis!
+    </p>
+
+    <hr>
+
     <table>
         <tr>
-            <td><img src = "img/maria_profile.jpg" alt="Imagem do perfil de Maria"></td>
-            <td>
-                <h1>Maria Silva</h1>
-                <p>Sócia e diretora da empresa<strong>Bolos Delivery</strong></p>
-                <p>Sou formada em gastronomia e administração de empresas</p>
-                <p>Veja meu <a href= "https://br.linkedin.com/">Linkeldin</a></p>
-            </td>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th>Idade</th>
+        </tr>
+
+        <tr>
+            <td>João</td>
+            <td>Silva</td>
+            <td rowspan="2">20</td>
+        </tr>
+
+        <tr>
+            <td>Lais</td>
+            <td>Soares</td>
+        </tr>
+
+        <tr>
+            <th colspan="2">Somatório das idades</th>
+            <td>43</td>
         </tr>
     </table>
-    <hr>
-    <h3>Especializações</h3>
-    <ul>
-        <li>Bolos profissionais</li>
-        <li>Decoração</li>
-        <li>Como transformar seu pequeno</li>
-    </ul>
-    <h3>Meus hobbies</h3>
-    <ol>
-        <li>Pintura</li>
-        <li>Costura</li>
-        <li><a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal">Serigrafia</a></li>
-    </ol>
-    <h3>Experiência</h3>
-    <table>
-        <thead>
-            <tr>
-                <th>Data</th>
-                <th>Experiência</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2007-2008</td>
-                <td>Estagiária</td>
-            </tr>
-            <tr>
-                <td>2008-2013</td>
-                <td>Auxiliar</td>
-            </tr>
-            <tr>
-                <td>2013</td>
-                <td>Sócia</td>
-            </tr>
-        </tbody>
-    </table>
-    <h3>Habilidades</h3>
-    <table>
-        <tbody>
-            <tr>
-                <td>Cobertura com chantinho</td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>Cobertura com buttercream</td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>Coberturas com glacê</td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-        </tbody>
-    </table>
-  </body>
+</body>
+
 </html>
